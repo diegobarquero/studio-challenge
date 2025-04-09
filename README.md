@@ -55,7 +55,7 @@ To fulfill the challenge requirements, this project should includes:
 
 * At least three draggable items (wigs, eyes, hats)
 
-* Drag-and-drop functionality using HTML5 Canvas
+* Drag-and-drop functionality
 
 * Resizing capability for the draggable items
 

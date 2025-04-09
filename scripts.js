@@ -73,7 +73,6 @@ function drawElements() {
   elements.forEach((el) => {
     ctx.drawImage(el.img, el.x, el.y, el.width, el.height);
 
-    // Only draw border and resize corner if the element is selected
     if (el === selectedElement) {
       drawBordersAndCorners(el);
     }
@@ -81,12 +80,10 @@ function drawElements() {
 }
 
 function drawBordersAndCorners(el) {
-  // Draw a border around the selected image
   ctx.strokeStyle = "rgba(0, 0, 0, 0.6)";
   ctx.lineWidth = 1;
   ctx.strokeRect(el.x, el.y, el.width, el.height);
 
-  // Only show resize corner at bottom-right for selected image
   ctx.fillStyle = "rgba(255, 0, 0, 0.7)";
   ctx.fillRect(el.x + el.width - 12, el.y + el.height - 12, 12, 12);
 }
@@ -113,7 +110,6 @@ canvas.addEventListener("mousedown", (event) => {
       y >= cornerY &&
       y <= cornerY + 12;
 
-    // Calculate the offset for dragging
     offsetX = x - selectedElement.x;
     offsetY = y - selectedElement.y;
   }
@@ -163,15 +159,12 @@ canvas.addEventListener("dblclick", (event) => {
 });
 
 function saveImage() {
-  // Convert the canvas content to a base64 data URL
   const dataURL = canvas.toDataURL();
 
-  // Create an anchor tag to trigger the download
   const link = document.createElement("a");
   link.download = "pet_yourself.png";
   link.href = dataURL;
 
-  // Trigger the download
   link.click();
 }
 
