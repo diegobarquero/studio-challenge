@@ -17,9 +17,12 @@ CSS for styling
 
 ## Folder Structure
 studio-challenge/
-├── index.html          # Main HTML page
-├── scripts.js           # JavaScript functionality
-├── styles.css          # Stylesheet
+├── index.html          # Main HTML page 
+
+├── scripts.js           # JavaScript functionality 
+
+├── styles.css          # Stylesheet 
+
 ├── images/             # Contains wigs.png, eyes.png, and hats.png
 
 ## How to Run Locally
