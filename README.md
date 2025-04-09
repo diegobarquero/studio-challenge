@@ -52,6 +52,8 @@ Drag-and-drop functionality using HTML5 Canvas
 
 Resizing capability for the draggable items
 
+Ability to remove draggable items when double-click on it
+
 An option to download the final edited image as a PNG
 
 All code written using vanilla HTML, CSS, and JavaScript
