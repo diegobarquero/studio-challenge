@@ -28,10 +28,10 @@ studio-challenge/
 
 ## How to Run Locally
 Clone this repository:
-  
-  git clone https://github.com/diegobarquero/studio-challenge.git
-  
-  cd studio-challenge
+
+    git clone https://github.com/diegobarquero/studio-challenge.git
+
+    cd studio-challenge
 
 Open index.html in your browser (you can use a local server for better experience).
 
