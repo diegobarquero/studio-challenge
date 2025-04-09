@@ -4,7 +4,7 @@ A simple web-based app built for the team challenge, inspired by the classic "Pe
 ## Features
 📸 Capture photos directly from the webcam
 
-🖼️ Drag and drop fun items like a wig, glasses, and hat
+🖼️ Drag and drop fun items like a wigs, eyes, and hats
 
 🔄 Resize and reposition items easily
 
@@ -12,24 +12,20 @@ A simple web-based app built for the team challenge, inspired by the classic "Pe
 
 ## Technologies Used
 HTML5 Canvas
-
 Vanilla JavaScript (ES6)
-
 CSS for styling
-
-FontAwesome for icons (optional)
 
 ## Folder Structure
 pet-yourself/
 ├── index.html          # Main HTML page
 ├── script.js           # JavaScript functionality
 ├── styles.css          # Stylesheet
-├── images/             # Contains wig.png, eyes.png, and hat.png
+├── assets/             # Contains wigs.png, eyes.png, and hats.png
 
 ## How to Run Locally
 Clone this repository:
-git clone https://github.com/your-username/pet-yourself.git
-cd pet-yourself
+git clone https://github.com/diegobarquero/studio-challenge.git
+cd studio-challenge
 Open index.html in your browser (you can use a local server for better experience).
 
 If using VSCode, you can install the Live Server extension and just click "Go Live".
@@ -39,7 +35,7 @@ Allow the browser to access your webcam.
 
 Click Take Picture to capture a photo.
 
-Drag and drop any of the items (wig, glasses, hat) onto your picture.
+Drag and drop any of the items (wigs, eyes, hats) onto your picture.
 
 Resize or reposition the items as desired.
 
@@ -50,7 +46,7 @@ To fulfill the challenge requirements, this project includes:
 
 A webcam capture function
 
-Three draggable items (wig, glasses, hat)
+At least three draggable items (wigs, eyes, hats)
 
 Drag-and-drop functionality using HTML5 Canvas
 
