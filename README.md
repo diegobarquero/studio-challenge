@@ -51,19 +51,19 @@ Click Download Image to save your masterpiece.
 ## Requirements for Challenge Completion ✅
 To fulfill the challenge requirements, this project should includes:
 
-A webcam capture function
+* A webcam capture function
 
-At least three draggable items (wigs, eyes, hats)
+* At least three draggable items (wigs, eyes, hats)
 
-Drag-and-drop functionality using HTML5 Canvas
+* Drag-and-drop functionality using HTML5 Canvas
 
-Resizing capability for the draggable items
+* Resizing capability for the draggable items
 
-Ability to remove draggable items when double-click on it
+* Ability to remove draggable items when double-click on it
 
-An option to download the final edited image as a PNG
+* An option to download the final edited image as a PNG
 
-All code written using vanilla HTML, CSS, and JavaScript
+* All code written using vanilla HTML, CSS, and JavaScript
 
 Note: You are free to use any AI or tool of your choice to complete this challenge. 
 However, the only requirement for the implementation is that you thoroughly document the code. 
