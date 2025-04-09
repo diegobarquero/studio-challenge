@@ -65,7 +65,7 @@ To fulfill the challenge requirements, this project should includes:
 
 * All code written using vanilla HTML, CSS, and JavaScript
 
-Note: You are free to use any AI or tool of your choice to complete this challenge. 
+Note: You are free to use any AI tool of your choice to complete this challenge. 
 However, the only requirement for the implementation is that you thoroughly document the code. 
 This documentation should demonstrate your understanding of what each part of the code does, 
 why it was implemented in a particular way, and how it contributes to the overall functionality. 
