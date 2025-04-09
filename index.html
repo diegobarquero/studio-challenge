@@ -15,26 +15,28 @@
     <div id="app-content">
       <video id="video" width="320" height="240" autoplay></video>
       <canvas id="canvas" class="hide-elem" width="320" height="240"></canvas>
-      <button onclick="takePicture()">Take Picture</button>
+      <button id="take-picture-btn" onclick="takePicture()">Take Picture</button>
 
-      <div id="toolbar">
-        <img src="./images/img-wig-1.png" class="draggable" draggable="true" ondragstart="drag(event)" id="wig1"/>
-        <img src="./images/img-wig-2.png" class="draggable" draggable="true" ondragstart="drag(event)" id="wig2"/>
-        <img src="./images/img-wig-3.png" class="draggable" draggable="true" ondragstart="drag(event)" id="wig3"/>
-        <img src="./images/img-eyes-1.png" class="draggable" draggable="true" ondragstart="drag(event)" id="eyes1"/>
-        <img src="./images/img-eyes-2.png" class="draggable" draggable="true" ondragstart="drag(event)" id="eyes2"/>
-        <img src="./images/img-eyes-3.png" class="draggable" draggable="true" ondragstart="drag(event)" id="eyes3"/>
-        <img src="./images/img-hat-1.png" class="draggable" draggable="true" ondragstart="drag(event)" id="hat1"/>
-        <img src="./images/img-hat-2.png" class="draggable" draggable="true" ondragstart="drag(event)" id="hat2"/>
-        <img src="./images/img-hat-3.png" class="draggable" draggable="true" ondragstart="drag(event)" id="hat3"/>
-        <img src="./images/img-moustache-1.png" class="draggable" draggable="true" ondragstart="drag(event)" id="mous1"/>
-        <img src="./images/img-moustache-2.png" class="draggable" draggable="true" ondragstart="drag(event)" id="mous2"/>
-        <img src="./images/img-moustache-3.png" class="draggable" draggable="true" ondragstart="drag(event)" id="mous3"/>
-      </div>
+      <div id="toolbar" class="hide-elem">
+        <div class="toolbar">
+          <img src="./images/img-wig-1.png" class="draggable" draggable="true" ondragstart="drag(event)" id="wig1"/>
+          <img src="./images/img-wig-2.png" class="draggable" draggable="true" ondragstart="drag(event)" id="wig2"/>
+          <img src="./images/img-wig-3.png" class="draggable" draggable="true" ondragstart="drag(event)" id="wig3"/>
+          <img src="./images/img-eyes-1.png" class="draggable" draggable="true" ondragstart="drag(event)" id="eyes1"/>
+          <img src="./images/img-eyes-2.png" class="draggable" draggable="true" ondragstart="drag(event)" id="eyes2"/>
+          <img src="./images/img-eyes-3.png" class="draggable" draggable="true" ondragstart="drag(event)" id="eyes3"/>
+          <img src="./images/img-hat-1.png" class="draggable" draggable="true" ondragstart="drag(event)" id="hat1"/>
+          <img src="./images/img-hat-2.png" class="draggable" draggable="true" ondragstart="drag(event)" id="hat2"/>
+          <img src="./images/img-hat-3.png" class="draggable" draggable="true" ondragstart="drag(event)" id="hat3"/>
+          <img src="./images/img-moustache-1.png" class="draggable" draggable="true" ondragstart="drag(event)" id="mous1"/>
+          <img src="./images/img-moustache-2.png" class="draggable" draggable="true" ondragstart="drag(event)" id="mous2"/>
+          <img src="./images/img-moustache-3.png" class="draggable" draggable="true" ondragstart="drag(event)" id="mous3"/>
+        </div>
 
-      <div class="btn-actions">
-        <button onclick="saveImage()">Save Image</button>
-        <button onclick="resetCanvas()">Reset Canvas</button>
+        <div class="btn-actions">
+          <button onclick="saveImage()">Save Image</button>
+          <button onclick="resetCanvas()">Reset Canvas</button>
+        </div>
       </div>
     </div>
     <script src="./scripts.js"></script>

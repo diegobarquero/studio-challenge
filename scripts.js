@@ -3,6 +3,8 @@ const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const errorMessage = document.getElementById("error-message");
 const appContent = document.getElementById("app-content");
+const takePictureBtn = document.getElementById("take-picture-btn");
+const toolBar = document.getElementById("toolbar")
 
 let backgroundImage = null;
 let elements = [];
@@ -31,8 +33,10 @@ function takePicture() {
     .drawImage(video, 0, 0, canvas.width, canvas.height);
   drawElements();
 
+  takePictureBtn.classList.add("hide-elem");
   video.classList.add("hide-elem");
   canvas.classList.remove("hide-elem");
+  toolBar.classList.remove("hide-elem");
 }
 
 function drag(event) {
@@ -78,12 +82,12 @@ function drawElements() {
 
 function drawBordersAndCorners(el) {
   // Draw a border around the selected image
-  ctx.strokeStyle = "green";
-  ctx.lineWidth = 2;
+  ctx.strokeStyle = "rgba(0, 0, 0, 0.6)";
+  ctx.lineWidth = 1;
   ctx.strokeRect(el.x, el.y, el.width, el.height);
 
   // Only show resize corner at bottom-right for selected image
-  ctx.fillStyle = "red";
+  ctx.fillStyle = "rgba(255, 0, 0, 0.7)";
   ctx.fillRect(el.x + el.width - 12, el.y + el.height - 12, 12, 12);
 }
 
@@ -176,6 +180,8 @@ function resetCanvas() {
   backgroundImage = null;
   selectedElement = null;
   drawElements();
+  takePictureBtn.classList.remove("hide-elem");
   video.classList.remove("hide-elem");
   canvas.classList.add("hide-elem");
+  toolBar.classList.add("hide-elem");
 }
