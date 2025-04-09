@@ -18,9 +18,9 @@ CSS for styling
 ## Folder Structure
 pet-yourself/
 ├── index.html          # Main HTML page
-├── script.js           # JavaScript functionality
+├── scripts.js           # JavaScript functionality
 ├── styles.css          # Stylesheet
-├── assets/             # Contains wigs.png, eyes.png, and hats.png
+├── images/             # Contains wigs.png, eyes.png, and hats.png
 
 ## How to Run Locally
 Clone this repository:
@@ -42,7 +42,7 @@ Resize or reposition the items as desired.
 Click Download Image to save your masterpiece.
 
 ## Requirements for Challenge Completion ✅
-To fulfill the challenge requirements, this project includes:
+To fulfill the challenge requirements, this project should includes:
 
 A webcam capture function
 
