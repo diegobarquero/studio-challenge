@@ -50,7 +50,7 @@ canvas {
   justify-content: center;
   gap: 15px;
   flex-wrap: wrap;
-  margin: 50px 0;
+  margin: 50px;
 }
 
 .btn-actions {
@@ -61,7 +61,8 @@ canvas {
 }
 
 .draggable {
-  width: 80px;
+  width: 40px;
+  padding: 10px;
   cursor: move;
   transition: transform 0.3s ease;
 }
