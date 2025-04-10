@@ -45,7 +45,7 @@ canvas {
   border-radius: 8px;
 }
 
-.toolbar {
+.toolbar-images {
   display: flex;
   justify-content: center;
   gap: 15px;
